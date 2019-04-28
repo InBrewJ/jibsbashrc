@@ -1,5 +1,7 @@
 alias getDev="git fetch && git checkout develop && git pull"
+alias getMas="git fetch && git checkout master && git pull"
 alias ns="npm run start"
 alias cdP="cd ~/Documents/Projects"
 alias c="clear"
+alias r="reset"
 cdP
