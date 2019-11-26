@@ -169,4 +169,5 @@ alias cdP="cd ~/Projects"
 alias c="clear"
 alias r="reset"
 alias sbr="source ~/.bashrc"
+alias ownAll="sudo chown -R $USER:$USER *"
 cdP
