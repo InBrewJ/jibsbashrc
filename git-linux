@@ -171,5 +171,5 @@ alias r="reset"
 alias sbr="source ~/.bashrc"
 alias ownAll="sudo chown -R $USER:$USER *"
 alias kad='kill $(docker ps -q)'
-alias docip=alias docip='docker inspect --format='"'"'{{.Name}} {{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}'"'"' $(docker ps -q)'
+alias docip='docker inspect --format='"'"'{{.Name}} {{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}'"'"' $(docker ps -q)'
 cdP
