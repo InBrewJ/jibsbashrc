@@ -1,5 +1,12 @@
 alias getDev="git fetch && git checkout develop && git pull"
+alias getMas="git fetch && git checkout master && git pull"
+alias gs="git status"
 alias ns="npm run start"
-alias cdP="cd ~/Work/Projects"
+alias nt="npm test"
+alias cdP="cd ~/workshop"
 alias c="clear"
-cdP
+alias r="reset"
+alias sbr="source ~/.bash_profile"
+alias ownAll="sudo chown -R $USER:$USER *"
+alias kad='docker container kill $(docker ps -q)'
+alias docip='docker inspect --format='"'"'{{.Name}} {{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}'"'"' $(docker ps -q)'
